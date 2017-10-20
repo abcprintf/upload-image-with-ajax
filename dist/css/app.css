@@ -1,0 +1,25 @@
+.row [class*='col-']:not(.hid),
+.col {
+    background-color: #a8fd93;
+    background-clip: content-box;
+    min-height: 20px;
+}
+
+.title {
+    margin-top: 20px;
+}
+
+#uploader {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#preview>img {
+    width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#tools {
+    margin-top: 20px;
+}
